@@ -1,13 +1,16 @@
 body {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Montserrat', sans-serif; 
     height: 100vh;
-    background-image: url(images/bg-palm.jpg);
+    /*background-image: url(images/bg-palm.jpg);*/
+    background-color: darkslategrey;
     background-size: cover;
-    
+    color: white;
 }
 
 .contenedor {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 75px;
+    margin-bottom: 10px;
     width: 100%;
     height: 70%;
     display: flex;
@@ -23,6 +26,7 @@ body {
 }
 
 .links {
+    padding: 30px;
     display: flex;
     background-color: white;
     width: 400px;
@@ -30,6 +34,14 @@ body {
     border-radius: 25px;
     align-items: center;
     margin: 5px;
+    text-decoration: none;
+    background-color: #d4d4d4;
+    color: purple;
+}
+
+.links:hover{
+    background-color: purple;
+    color: #d4d4d4;
 }
 
 .links h5 {
@@ -47,13 +59,19 @@ body {
 
 .contenedor2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .icono-redes {
-    width: 35px;
-    height: 35px;
-    margin-left: 10px;
+    width: 55px;
+    height: 55px;
 }
 
+
+.contenedor2 p {
+    font-size: x-large;
+    text-align: justify;
+
+}
